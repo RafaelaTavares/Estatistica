@@ -415,13 +415,5 @@ public class FrameCalculadora extends JFrame{
 		}
 		
 		getlabelResult().setText(String.valueOf(result)); //coloca resultado na calculadora
-		
-		System.out.println("Populacao: "+populacao);
-		System.out.println("Erro: "+ erro_ou_desvioPadrao);
-		System.out.println("Z: "+ z);
-		System.out.println("p: "+ p );
-		
-		
-		System.out.println("Resultado: "+result);
 	}
 }
